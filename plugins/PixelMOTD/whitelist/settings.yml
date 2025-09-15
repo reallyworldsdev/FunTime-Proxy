@@ -1,0 +1,33 @@
+default-reason: Мы работаем над новыми обновлениями.
+reason: '&cInvalid Path: &edefault-reasonswhitelist'
+author: 31fDev
+motd: true
+custom-console-name:
+  enabled: true
+  name: 31fDev
+enabled: false
+players:
+  by-name: []
+  by-uuid: []
+kick-message:
+  global:
+  - '&#FB1919&lꜰ&#FC281A&lɢ&#FD371C&lʀ&#FE451D&lɪ&#FF541E&lᴇ&#FF481F&lꜰ&#FF3C21&l.&#FF2F22&lʀ&#FF2323&lᴜ'
+  - ' '
+  - '&#FB1919▶ &#FB9232Т&#FC8C32е&#FC8632х&#FD8031н&#FD7A31и&#FE7431ч&#FE6E31е&#FF6830с&#FF6230к&#FF6830и&#FE6E31е
+    &#FE7431р&#FD7A31а&#FD8031б&#FC8632о&#FC8C32т&#FB9232ы &7● &f&nt.me/dev31f&r'
+  - ' '
+  - '&fИзменить текст можно в:'
+  - '&#FD803131fProxie\plugins\PixelMOTD\whitelist'
+  - ' '
+  - '&f&nt.me/dev31f&r'
+  individual:
+  - '&#FB1919&lꜰ&#FC281A&lɢ&#FD371C&lʀ&#FE451D&lɪ&#FF541E&lᴇ&#FF481F&lꜰ&#FF3C21&l.&#FF2F22&lʀ&#FF2323&lᴜ'
+  - ' '
+  - '&#FB1919▶ &#FB9232Т&#FC8C32е&#FC8632х&#FD8031н&#FD7A31и&#FE7431ч&#FE6E31е&#FF6830с&#FF6230к&#FF6830и&#FE6E31е
+    &#FE7431р&#FD7A31а&#FD8031б&#FC8632о&#FC8C32т&#FB9232ы &7● &f&nt.me/dev31f&r'
+  - ' '
+  - '&fИзменить текст можно в:'
+  - '&#FD803131fProxie\plugins\PixelMOTD\whitelist'
+  - ' '
+  - '&f&nt.me/dev31f&r'
+default-reasons: {}

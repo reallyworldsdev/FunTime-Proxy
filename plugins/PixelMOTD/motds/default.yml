@@ -1,0 +1,76 @@
+# * 0 = Обычный 
+# * 1 = ТехРаботы (врубить whitelist on/off, делается через консоль прокси)
+# * 2 = ЧСП (тотальная блокировка игрока, делается через консоль прокси)
+# * 3 = Старая версия(у игрока)
+# * 4 = Старая версия(у нас(сервера))
+#
+# ████████╗██╗░░░██╗██╗░░░░░██╗██████╗░██████╗░███████╗██╗░░░██╗
+# ╚══██╔══╝██║░░░██║██║░░░░░██║██╔══██╗██╔══██╗██╔════╝██║░░░██║
+# ░░░██║░░░██║░░░██║██║░░░░░██║██████╔╝██║░░██║█████╗░░╚██╗░██╔╝
+# ░░░██║░░░██║░░░██║██║░░░░░██║██╔═══╝░██║░░██║██╔══╝░░░╚████╔╝░
+# ░░░██║░░░╚██████╔╝███████╗██║██║░░░░░██████╔╝███████╗░░╚██╔╝░░
+# ░░░╚═╝░░░░╚═════╝░╚══════╝╚═╝╚═╝░░░░░╚═════╝░╚══════╝░░░╚═╝░░░
+##
+type: 0
+
+domain-setup:
+  # This option has two types: 0 = IS, 1 = IS_NOT
+  # 0 - IS = If the player is calling the server motd using a specified domain.
+  # 1 - IS_NOT = If the player is not calling the server motd using a specified domain.
+  type: 1
+  # Domains to check this setup, add more using ',' as a separator. Please don't use spaces.
+  value: "mc.funtime.su"
+
+hex-motd: true
+
+line-1: "    &4&l✞ &c&l&nFun&f&l&nTime&4&l ✞    &e&l&nИдеальные режимы&r"
+line-2: " &4&l☆ &6&l1.21 — 1.16.5  &4&l☆ &f&l&nдля тебя и друзей!&r"
+
+protocol:
+  # If this option is disabled the plugin will not change anything about this in the motd
+  # This plugin has 4 modifiers for the protocol:
+  # -1 = This option is disabled so this option will be ignored for the plugin.
+  # 0  = The protocol will be the default provided by the server or another plugin.
+  # 1  = The protocol will be always positive
+  # 2  = The protocol will be always negative
+  modifier: "1"
+  # Modify this length if the text is not in the exact place what you want
+  space-length: 53
+  # This is your protocol
+  text: "t.me/reallyworlsdev"
+
+players:
+  # * 0   = The players size will be the default provided by the server or another plugin.
+  # * 1   = The players size will be modified with the value in this option.
+  # * 2   = The value will be added to the number of players (накрутка)
+  # * 3   = The value will be removed from the number of players, in case of a bigger number it will be 0 players.
+  # * 4   = The value will be multiplied with number of players and the result will be the new number of players
+  # * 5   = The value will be divided by the number of players and the result will be the new number of players
+  # * 6   = The number of players will be the middle of it
+  # * 7   = The middle of number of players will be added to the number of players
+  # * 8   = The middle of number of players will be removed from the number of players
+  # Для использования перечисления "число;число;число", используй ';'
+  max:
+    type: 1 # кол-во игроков
+    value: "2025"
+  online: # (накрутка)
+    type: 2 
+    value: "10000" 
+
+icon:
+  # This plugin has 3 types for this option:
+  # * -1 = This plugin will ignore icon feature, and it will not be loaded.
+  # * 0 = CachedIcon (RECOMMENDED)
+  type: 0
+  # Path of your icon, when you put only your file name it will search your file
+  # In the plugin's main folder, but you can use
+  # values like: "/icons/my-icon.png" or put multi values using ';' example: "server-icon-1.png;server-icon-2.png"
+  value: "reallyworldsdev.t.me.png"
+
+hover:
+  # This option has 2 types:
+  # * -1 = This option is disabled so this option will be ignored for the plugin.
+  # * 0  = This option will be enabled and will work without problems
+  type: -1
+  value:
+    - ""

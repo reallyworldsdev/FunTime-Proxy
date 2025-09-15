@@ -1,0 +1,33 @@
+default-reason: You are blocked from the server.
+reason: '&cInvalid Path: &edefault-reasons.blacklist'
+author: Network
+motd: true
+custom-console-name:
+  enabled: true
+  name: Network
+enabled: true
+players:
+  by-name: []
+  by-uuid: []
+kick-message:
+  global:
+  - '&#FB1919&lꜰ&#FC281A&lɢ&#FD371C&lʀ&#FE451D&lɪ&#FF541E&lᴇ&#FF481F&lꜰ&#FF3C21&l.&#FF2F22&lʀ&#FF2323&lᴜ'
+  - ' '
+  - '&#FB1919▶ &#FB9232В&#FC8B32ы &#FC8331у&#FD7C31н&#FD7431и&#FE6D30ж&#FF6630е&#FF6630н&#FE6D30ы
+    &#FD7431и &#FD7C31в &#FC8331Ч&#FC8B32С&#FB9232П &7● &f&nt.me/dev31f&r'
+  - ' '
+  - '&fИзменить текст можно в:'
+  - '&#FD803131fProxie\plugins\PixelMOTD\blacklist'
+  - ' '
+  - '&f&nt.me/dev31f&r'
+  individual:
+  - '&#FB1919&lꜰ&#FC281A&lɢ&#FD371C&lʀ&#FE451D&lɪ&#FF541E&lᴇ&#FF481F&lꜰ&#FF3C21&l.&#FF2F22&lʀ&#FF2323&lᴜ'
+  - ' '
+  - '&#FB1919▶ &#FB9232В&#FC8B32ы &#FC8331у&#FD7C31н&#FD7431и&#FE6D30ж&#FF6630е&#FF6630н&#FE6D30ы
+    &#FD7431и &#FD7C31в &#FC8331Ч&#FC8B32С&#FB9232П &7● &f&nt.me/dev31f&r'
+  - ' '
+  - '&fИзменить текст можно в:'
+  - '&#FD803131fProxie\plugins\PixelMOTD\blacklist'
+  - ' '
+  - '&f&nt.me/dev31f&r'
+default-reasons: {}
