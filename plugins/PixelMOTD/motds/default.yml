@@ -22,7 +22,7 @@ domain-setup:
   value: "mc.funtime.su"
 
 hex-motd: true
-
+ # https://t.me/rwsdevleak/7
 line-1: "    &4&l✞ &c&l&nFun&f&l&nTime&4&l ✞    &e&l&nИдеальные режимы&r"
 line-2: " &4&l☆ &6&l1.21 — 1.16.5  &4&l☆ &f&l&nдля тебя и друзей!&r"
 
